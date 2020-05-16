@@ -37,7 +37,6 @@ printf("Grid %d = \n\n",a);
             if(y==7) printf("\n\n");
         }
     }
-
 }
 void checking(int oldArr[8][8],int newArr[8][8]){
          for(int x=1;x<=6;x++){
