@@ -2,9 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 void main(){
-/*int i;
-printf("Enter the size of your text: ");
-scanf("%d",&i);*/
+
 printf("Enter a text : ");
 char text[100];
 gets(text);
