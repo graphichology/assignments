@@ -14,7 +14,7 @@ void main()
     if(pow(i,7)<=x){
         num=pow(i,7);
         y=(x-num)/num;
-        result=(1+(y/7)+(((1/7)*((1/7)-1)*pow(y,2))/2)+(((1/7)*((1/7)-1)*((1/7)-2)*pow(y,3))/6));
+        result=(1+(y/7)+(((1/7)*((1/7)-1)*pow(y,2))/2)+(((1/7)*((1/7)-1)*((1/7)-2)*pow(y,3))/6));//this is the binomial expansion of the 7th root
         printf("%f",i*result);
         break;
     }
