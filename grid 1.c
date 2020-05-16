@@ -8,13 +8,7 @@ void checking(int oldArr[8][8],int newArr[8][8]);
 //void swaping(int **grid,int **grid2);
 int main()
 {
-/*    scaning();
-    for(int a=0;a<=3;a++){
-    printing(a,grid);
-    checking(grid,grid2);
-    swaping(grid,grid2);
-    }
-*/
+
     scaning();
     printing(0,grid);
     checking(grid,grid2);
@@ -70,9 +64,4 @@ void checking(int oldArr[8][8],int newArr[8][8]){
 
 
 }
-/*void swaping(int **grid,int **grid2){
-int *p = *grid;
-    *grid = *grid2;
-    *grid2 = p;
-}
-*/
+
